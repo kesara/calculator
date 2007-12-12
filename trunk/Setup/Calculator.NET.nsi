@@ -5,7 +5,7 @@
 ;------------------------------------------------
 
 ;--------------------------------
-;Include Modern UI
+;Include
 
 	!include "MUI.nsh"
 
@@ -23,6 +23,23 @@
 	;Get installation folder from registry if available
 	InstallDirRegKey HKCU "Software\Calculator.NET" ""
 
+;--------------------------------
+;Functions
+
+	Function .onInit
+		Push $R0 
+		ClearErrors
+		ReadRegStr $R0 HKLM "SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5" "Version"
+		IfErrors lbl_err lbl_end
+		lbl_err:
+		MessageBox MB_OK|MB_ICONSTOP ".NET runtime library v3.5 or newer is required."
+		Abort
+
+		lbl_end:
+		Exch $0
+	FunctionEnd
+
+ 
 ;--------------------------------
 ;Variables
 
