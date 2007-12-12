@@ -3,4 +3,6 @@
 
 = Read Me =
 
-To be completed.
+Calculator.NET is an easy to use calculator with unique features. Calculator.NET can be used to perform any of the standard operations for which you would normally use a calculator.
+Available mathematical operations are,
+ * Standard arithmetic operations: Addition, subtraction, multiplication 
