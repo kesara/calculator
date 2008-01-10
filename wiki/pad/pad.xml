@@ -23,9 +23,9 @@
 			<Contact_Email>kesara@bcs.org</Contact_Email>
 		</Contact_Info>
 		<Support_Info>
-			<Sales_Email />
-			<Support_Email />
-			<General_Email />
+			<Sales_Email>claculator@kesara.f2g.net</Sales_Email>
+			<Support_Email>claculator@kesara.f2g.net</Support_Email>
+			<General_Email>claculator@kesara.f2g.net</General_Email>
 			<Sales_Phone />
 			<Support_Phone />
 			<General_Phone />
@@ -61,7 +61,7 @@
 			<Filename_Long />
 			<File_Size_Bytes>157</File_Size_Bytes>
 			<File_Size_K>0.15</File_Size_K>
-			<File_Size_MB />
+			<File_Size_MB>0</File_Size_MB>
 		</File_Info>
 		<Expire_Info>
 			<Has_Expire_Info>N</Has_Expire_Info>
