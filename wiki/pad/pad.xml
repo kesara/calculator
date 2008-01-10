@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>2.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>Online PAD Generator 1.33 - http://www.padbuilder.com</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Kesara Nanayakkara Rathnayake</Company_Name>
+		<Address_1>No. 66/11</Address_1>
+		<Address_2>Weli Para</Address_2>
+		<City_Town>Nawala</City_Town>
+		<State_Province>CO</State_Province>
+		<Zip_Postal_Code>P 10100</Zip_Postal_Code>
+		<Country>Sri Lanka</Country>
+		<Company_WebSite_URL>http://kesara.f2g.net/</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Kesara</Author_First_Name>
+			<Author_Last_Name>Rathnayake</Author_Last_Name>
+			<Author_Email>kesara@bcs.org</Author_Email>
+			<Contact_First_Name>Kesara</Contact_First_Name>
+			<Contact_Last_Name>Rathnnayake</Contact_Last_Name>
+			<Contact_Email>kesara@bcs.org</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email />
+			<Support_Email />
+			<General_Email />
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>Calculator.NET</Program_Name>
+		<Program_Version>1.0.0.0</Program_Version>
+		<Program_Release_Month>12</Program_Release_Month>
+		<Program_Release_Day>12</Program_Release_Day>
+		<Program_Release_Year>2007</Program_Release_Year>
+		<Program_Cost_Dollars />
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>New Release</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win95,Win98,WinME,WinNT 3.x,WinNT 4.x,WinXP,Windows2000,Windows2003,Windows CE</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Education</Program_Specific_Category>
+		<Program_Category_Class>Education::Science</Program_Category_Class>
+		<Program_Categories>Utility</Program_Categories>
+		<Program_System_Requirements />
+		<Includes_JAVA_VM>N</Includes_JAVA_VM>
+		<Includes_VB_Runtime>N</Includes_VB_Runtime>
+		<Includes_DirectX>N</Includes_DirectX>
+		<File_Info>
+			<Filename_Versioned />
+			<Filename_Previous />
+			<Filename_Generic />
+			<Filename_Long />
+			<File_Size_Bytes>157</File_Size_Bytes>
+			<File_Size_K>0.15</File_Size_K>
+			<File_Size_MB />
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On />
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>Calculator, .NET, Windows</Keywords>
+			<Char_Desc_45>Calculator with unique features.</Char_Desc_45>
+			<Char_Desc_80>Easy to use simple calculator with unique features for windows.</Char_Desc_80>
+			<Char_Desc_250>Calculator.NET is an easy to use calculator with unique features for Microsoft Windows. Calculator.NET can be used to perform any of the standard operations for which you would normally use a calculator. It also contains text pad, result history, mem</Char_Desc_250>
+			<Char_Desc_450>Calculator.NET is an easy to use calculator with unique features for Microsoft Windows. Calculator.NET can be used to perform any of the standard operations for which you would normally use a calculator. It also contains text pad, result history, memory operations etc.</Char_Desc_450>
+			<Char_Desc_2000>Calculator.NET is an easy to use calculator with unique features for Microsoft Windows. Calculator.NET can be used to perform any of the standard operations for which you would normally use a calculator. It also contains text pad, result history, memory operations etc.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://calculator.googlecode.com</Application_Info_URL>
+			<Application_Order_URL />
+			<Application_Screenshot_URL>http://calculator.googlecode.com/svn/wiki/images/Calculator.NET_Screenshot.png</Application_Screenshot_URL>
+			<Application_Icon_URL>http://calculator.googlecode.com/svn/trunk/Calculator.NET/Calculator.NET/Resources/Calculator.NET.png</Application_Icon_URL>
+			<Application_XML_File_URL>http://calculator.googlecode.com/svn/wiki/pad/pad.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://calculator.googlecode.com/files/Calculator.NET-1.0.0.0-Setup.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>GNU GPL v3
+http://www.gnu.org/licenses/gpl-3.0.txt</Distribution_Permissions>
+		<EULA>GNU GPL v3
+http://www.gnu.org/licenses/gpl-3.0.txt</EULA>
+	</Permissions>
+</XML_DIZ_INFO>
