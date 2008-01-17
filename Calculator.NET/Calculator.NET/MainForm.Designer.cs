@@ -73,6 +73,16 @@
             this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.clearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.unitConversionStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lengthToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.areaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.volumeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.weightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.speedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.temperatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.informationStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.storageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.speedToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.checkForUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,16 +92,6 @@
             this.buttonAllCancel = new System.Windows.Forms.Button();
             this.buttonSeperator = new System.Windows.Forms.Button();
             this.saveFileDialogBox = new System.Windows.Forms.SaveFileDialog();
-            this.unitConversionStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.areaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.volumeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.weightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.temperatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.speedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lengthToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.informationStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.storageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.speedToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStripMain.SuspendLayout();
             this.menuStripMain.SuspendLayout();
             this.SuspendLayout();
@@ -572,6 +572,78 @@
             this.clearToolStripMenuItem.Text = "&Clear";
             this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearPad);
             // 
+            // unitConversionStripMenuItem
+            // 
+            this.unitConversionStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lengthToolStripMenuItem,
+            this.areaToolStripMenuItem,
+            this.volumeToolStripMenuItem,
+            this.weightToolStripMenuItem,
+            this.speedToolStripMenuItem,
+            this.temperatureToolStripMenuItem,
+            this.informationStripMenuItem});
+            this.unitConversionStripMenuItem.Name = "unitConversionStripMenuItem";
+            this.unitConversionStripMenuItem.Size = new System.Drawing.Size(95, 20);
+            this.unitConversionStripMenuItem.Text = "Unit Conversion";
+            // 
+            // lengthToolStripMenuItem
+            // 
+            this.lengthToolStripMenuItem.Name = "lengthToolStripMenuItem";
+            this.lengthToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.lengthToolStripMenuItem.Text = "Length";
+            this.lengthToolStripMenuItem.Click += new System.EventHandler(this.lengthToolStripMenuItem_Click);
+            // 
+            // areaToolStripMenuItem
+            // 
+            this.areaToolStripMenuItem.Name = "areaToolStripMenuItem";
+            this.areaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.areaToolStripMenuItem.Text = "Area";
+            // 
+            // volumeToolStripMenuItem
+            // 
+            this.volumeToolStripMenuItem.Name = "volumeToolStripMenuItem";
+            this.volumeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.volumeToolStripMenuItem.Text = "Volume";
+            // 
+            // weightToolStripMenuItem
+            // 
+            this.weightToolStripMenuItem.Name = "weightToolStripMenuItem";
+            this.weightToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.weightToolStripMenuItem.Text = "Weight";
+            // 
+            // speedToolStripMenuItem
+            // 
+            this.speedToolStripMenuItem.Name = "speedToolStripMenuItem";
+            this.speedToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.speedToolStripMenuItem.Text = "Speed";
+            // 
+            // temperatureToolStripMenuItem
+            // 
+            this.temperatureToolStripMenuItem.Name = "temperatureToolStripMenuItem";
+            this.temperatureToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.temperatureToolStripMenuItem.Text = "Temperature";
+            // 
+            // informationStripMenuItem
+            // 
+            this.informationStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.storageToolStripMenuItem,
+            this.speedToolStripMenuItem1});
+            this.informationStripMenuItem.Name = "informationStripMenuItem";
+            this.informationStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.informationStripMenuItem.Text = "Information";
+            // 
+            // storageToolStripMenuItem
+            // 
+            this.storageToolStripMenuItem.Name = "storageToolStripMenuItem";
+            this.storageToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
+            this.storageToolStripMenuItem.Text = "Storage";
+            // 
+            // speedToolStripMenuItem1
+            // 
+            this.speedToolStripMenuItem1.Name = "speedToolStripMenuItem1";
+            this.speedToolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
+            this.speedToolStripMenuItem1.Text = "Data Transfer Rate";
+            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -655,77 +727,6 @@
             // 
             this.saveFileDialogBox.Filter = "Text files|*.txt|All files|*.*";
             this.saveFileDialogBox.Title = "Save As";
-            // 
-            // unitConversionStripMenuItem
-            // 
-            this.unitConversionStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lengthToolStripMenuItem,
-            this.areaToolStripMenuItem,
-            this.volumeToolStripMenuItem,
-            this.weightToolStripMenuItem,
-            this.speedToolStripMenuItem,
-            this.temperatureToolStripMenuItem,
-            this.informationStripMenuItem});
-            this.unitConversionStripMenuItem.Name = "unitConversionStripMenuItem";
-            this.unitConversionStripMenuItem.Size = new System.Drawing.Size(95, 20);
-            this.unitConversionStripMenuItem.Text = "Unit Conversion";
-            // 
-            // areaToolStripMenuItem
-            // 
-            this.areaToolStripMenuItem.Name = "areaToolStripMenuItem";
-            this.areaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.areaToolStripMenuItem.Text = "Area";
-            // 
-            // volumeToolStripMenuItem
-            // 
-            this.volumeToolStripMenuItem.Name = "volumeToolStripMenuItem";
-            this.volumeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.volumeToolStripMenuItem.Text = "Volume";
-            // 
-            // weightToolStripMenuItem
-            // 
-            this.weightToolStripMenuItem.Name = "weightToolStripMenuItem";
-            this.weightToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.weightToolStripMenuItem.Text = "Weight";
-            // 
-            // temperatureToolStripMenuItem
-            // 
-            this.temperatureToolStripMenuItem.Name = "temperatureToolStripMenuItem";
-            this.temperatureToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.temperatureToolStripMenuItem.Text = "Temperature";
-            // 
-            // speedToolStripMenuItem
-            // 
-            this.speedToolStripMenuItem.Name = "speedToolStripMenuItem";
-            this.speedToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.speedToolStripMenuItem.Text = "Speed";
-            // 
-            // lengthToolStripMenuItem
-            // 
-            this.lengthToolStripMenuItem.Name = "lengthToolStripMenuItem";
-            this.lengthToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.lengthToolStripMenuItem.Text = "Length";
-            // 
-            // informationStripMenuItem
-            // 
-            this.informationStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.storageToolStripMenuItem,
-            this.speedToolStripMenuItem1});
-            this.informationStripMenuItem.Name = "informationStripMenuItem";
-            this.informationStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.informationStripMenuItem.Text = "Information";
-            // 
-            // storageToolStripMenuItem
-            // 
-            this.storageToolStripMenuItem.Name = "storageToolStripMenuItem";
-            this.storageToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.storageToolStripMenuItem.Text = "Storage";
-            // 
-            // speedToolStripMenuItem1
-            // 
-            this.speedToolStripMenuItem1.Name = "speedToolStripMenuItem1";
-            this.speedToolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
-            this.speedToolStripMenuItem1.Text = "Data Transfer Rate";
             // 
             // MainForm
             // 

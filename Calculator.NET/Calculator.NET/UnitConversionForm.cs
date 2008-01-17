@@ -11,9 +11,17 @@ namespace Calculator.NET
 {
     public partial class UnitConversionForm : Form
     {
-        public UnitConversionForm()
+        private double number;
+
+        public UnitConversionForm(double number)
         {
+            this.number = number;
             InitializeComponent();
+        }
+
+        private void buttonOk_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

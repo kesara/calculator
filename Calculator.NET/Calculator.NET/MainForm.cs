@@ -391,5 +391,10 @@ namespace Calculator.NET
             textBoxDisplay.Text = "0";
             operationPressed = true;
         }
+
+        private void lengthToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
