@@ -147,20 +147,18 @@ namespace Calculator.NET
          * Display Operations *
          **********************/
 
-        /* 
-         * numberPress - Handles user's number input
+        /*
+         * enterNumber - Handles display and storing of numbers and values.
          * Inovocked when a number, period or plus-minus is pressed.
          */
-        private void numberPress(object sender, EventArgs e)
+        private void enterNumber(String number)
         {
-            String number = sender.ToString().Substring(35);
-
             if (number == "±")
             {
                 textBoxDisplay.Text = calculation.plusMinus(Double.Parse(textBoxDisplay.Text)).ToString();
                 return;
             }
-            
+
             if (operationPressed)
             {
                 textBoxDisplay.Text = "";
@@ -187,7 +185,7 @@ namespace Calculator.NET
                 {
                     textBoxDisplay.Text = textBoxDisplay.Text.Substring(0, textBoxDisplay.Text.Length - 1);
                 }
-                
+
                 if (textBoxDisplay.Text.Length <= 0)
                 {
                     operationPressed = true;
@@ -197,6 +195,33 @@ namespace Calculator.NET
             else
             {
                 textBoxDisplay.Text = textBoxDisplay.Text + number;
+            }
+        }
+
+        /* 
+         * numberButtonClick - Handles user's number input via buttons
+         */
+        private void numberButtonClick(object sender, EventArgs e)
+        {
+            enterNumber(sender.ToString().Substring(35));
+        }
+
+        /*
+         * numberPress - Handles user's number input via keyboard.
+         */
+        private void numberPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= '0' && e.KeyChar <= '9')
+            {
+                enterNumber(e.KeyChar.ToString());
+            }
+            else if (e.KeyChar == '.')
+            {
+                enterNumber(e.KeyChar.ToString());
+            }
+            else if (e.KeyChar == '\b')
+            {
+                enterNumber("Backspace");
             }
         }
 
@@ -390,11 +415,6 @@ namespace Calculator.NET
             Clipboard.SetDataObject(textBoxDisplay.Text);
             textBoxDisplay.Text = "0";
             operationPressed = true;
-        }
-
-        private void lengthToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
