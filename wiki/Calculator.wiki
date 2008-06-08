@@ -14,7 +14,7 @@
 09-JUN-2008 Version 1.1.0.0 (beta)
   * Keyboard input support
   * Minor user interface enhancements.
-  * Several bug fixes. _(Including [Issue#2] and [Issue#3].)
+  * Several bug fixes.
 
 = External links =
   * [http://www.ohloh.net/projects/10231 Ohloh Project Page]
