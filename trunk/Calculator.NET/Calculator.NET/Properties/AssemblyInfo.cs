@@ -11,7 +11,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Kesara Nanayakkara Rathnayake")]
 [assembly: AssemblyProduct("Calculator.NET")]
-[assembly: AssemblyCopyright("Copyright ©  2007 Kesara Nanayakkara Rathnayake")]
+[assembly: AssemblyCopyright("Copyright ©  2007, 2008 Kesara Nanayakkara Rathnayake")]
 [assembly: AssemblyTrademark("Calculator.NET")]
 [assembly: AssemblyCulture("")]
 
@@ -33,6 +33,6 @@ using System.Resources;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]
 [assembly: NeutralResourcesLanguageAttribute("en")]
