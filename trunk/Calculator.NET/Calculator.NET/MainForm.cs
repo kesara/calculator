@@ -47,13 +47,15 @@ namespace Calculator.NET
             calculation = new Calculations();
         }
 
+        /*************************
+         * Calculator Operations *
+         *************************/
+
         /* 
-         * operationClick - Handles activated operations
-         * Invoked when any operater is pressed.
+         * enterOperation - Handles activated operations
          */
-        private void operationClick(object sender, EventArgs e)
+        private void enterOperation(String currentOperation)
         {
-            String currentOperation = sender.ToString().Substring(35);
 
             if (withInCalculation)
             {
@@ -62,16 +64,16 @@ namespace Calculator.NET
 
                 switch (operation)
                 {
-                    case "+" :
+                    case "+":
                         result = calculation.addition(x, y);
                         break;
-                    case "-" :
+                    case "-":
                         result = calculation.subtraction(x, y);
                         break;
-                    case "×" :
+                    case "×":
                         result = calculation.multiplication(x, y);
                         break;
-                    case "÷" :
+                    case "÷":
                         result = calculation.division(x, y);
                         break;
                     case "xⁿ":
@@ -111,11 +113,11 @@ namespace Calculator.NET
 
             switch (operation)
             {
-                case "x!" :
+                case "x!":
                     result = calculation.factorial(x);
                     singleParameterOperation = true;
                     break;
-                case "√" :
+                case "√":
                     result = calculation.squareRoot(x);
                     singleParameterOperation = true;
                     break;
@@ -198,33 +200,6 @@ namespace Calculator.NET
             }
         }
 
-        /* 
-         * numberButtonClick - Handles user's number input via buttons
-         */
-        private void numberButtonClick(object sender, EventArgs e)
-        {
-            enterNumber(sender.ToString().Substring(35));
-        }
-
-        /*
-         * numberPress - Handles user's number input via keyboard.
-         */
-        private void numberPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar >= '0' && e.KeyChar <= '9')
-            {
-                enterNumber(e.KeyChar.ToString());
-            }
-            else if (e.KeyChar == '.')
-            {
-                enterNumber(e.KeyChar.ToString());
-            }
-            else if (e.KeyChar == '\b')
-            {
-                enterNumber("Backspace");
-            }
-        }
-
         private void buttonCancel_Click(object sender, EventArgs e)
         {
             textBoxDisplay.Text = "0";
@@ -279,6 +254,50 @@ namespace Calculator.NET
             updatePad(m);
             operationPressed = true;
         }
+
+        /**************
+         * User Input *
+         **************/
+
+        /* 
+         * operationButtonClick - Handles user's input via buttons
+         */
+        private void operationButtonClick(object sender, EventArgs e)
+        {
+            enterOperation(sender.ToString().Substring(35));
+        }
+
+        /* 
+         * numberButtonClick - Handles user's number input via buttons
+         */
+        private void numberButtonClick(object sender, EventArgs e)
+        {
+            enterNumber(sender.ToString().Substring(35));
+        }
+
+        /*
+         * keyBoardInput - Handles user's input via keyboard.
+         */
+        private void keyBoardInput(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= '0' && e.KeyChar <= '9')
+            {
+                enterNumber(e.KeyChar.ToString());
+            }
+            else if (e.KeyChar == '.')
+            {
+                enterNumber(e.KeyChar.ToString());
+            }
+            else if (e.KeyChar == '\b')
+            {
+                enterNumber("Backspace");
+            }
+            else if (e.KeyChar == '=' || e.KeyChar == '+' || e.KeyChar == '-' || e.KeyChar == '/' || e.KeyChar == '*')
+            {
+                enterOperation(e.KeyChar.ToString());
+            }
+        }
+
 
         /*************************
          * textBoxPad Operations *
