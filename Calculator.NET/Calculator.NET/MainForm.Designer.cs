@@ -73,16 +73,6 @@
             this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.clearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.unitConversionStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lengthToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.areaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.volumeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.weightToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.speedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.temperatureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.informationStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.storageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.speedToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.checkForUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -206,7 +196,7 @@
             this.buttonDivision.Location = new System.Drawing.Point(124, 161);
             this.buttonDivision.Name = "buttonDivision";
             this.buttonDivision.Size = new System.Drawing.Size(50, 30);
-            this.buttonDivision.TabIndex = 14;
+            this.buttonDivision.TabIndex = 15;
             this.buttonDivision.Tag = "÷";
             this.buttonDivision.Text = "÷";
             this.buttonDivision.UseVisualStyleBackColor = true;
@@ -219,7 +209,7 @@
             this.buttonPlusOrMinus.Location = new System.Drawing.Point(68, 161);
             this.buttonPlusOrMinus.Name = "buttonPlusOrMinus";
             this.buttonPlusOrMinus.Size = new System.Drawing.Size(50, 30);
-            this.buttonPlusOrMinus.TabIndex = 13;
+            this.buttonPlusOrMinus.TabIndex = 17;
             this.buttonPlusOrMinus.Tag = "±";
             this.buttonPlusOrMinus.Text = "±";
             this.buttonPlusOrMinus.UseVisualStyleBackColor = true;
@@ -232,7 +222,7 @@
             this.button11.Location = new System.Drawing.Point(12, 161);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(50, 30);
-            this.button11.TabIndex = 12;
+            this.button11.TabIndex = 18;
             this.button11.Tag = "factorial";
             this.button11.Text = "x!";
             this.button11.UseVisualStyleBackColor = true;
@@ -284,7 +274,7 @@
             this.buttonEaqual.Location = new System.Drawing.Point(180, 269);
             this.buttonEaqual.Name = "buttonEaqual";
             this.buttonEaqual.Size = new System.Drawing.Size(50, 66);
-            this.buttonEaqual.TabIndex = 15;
+            this.buttonEaqual.TabIndex = 16;
             this.buttonEaqual.Tag = "=";
             this.buttonEaqual.Text = "=";
             this.buttonEaqual.UseVisualStyleBackColor = true;
@@ -297,7 +287,7 @@
             this.buttonAddition.Location = new System.Drawing.Point(180, 233);
             this.buttonAddition.Name = "buttonAddition";
             this.buttonAddition.Size = new System.Drawing.Size(50, 30);
-            this.buttonAddition.TabIndex = 16;
+            this.buttonAddition.TabIndex = 12;
             this.buttonAddition.Tag = "+";
             this.buttonAddition.Text = "+";
             this.buttonAddition.UseVisualStyleBackColor = true;
@@ -310,7 +300,7 @@
             this.buttonSubtraction.Location = new System.Drawing.Point(180, 197);
             this.buttonSubtraction.Name = "buttonSubtraction";
             this.buttonSubtraction.Size = new System.Drawing.Size(50, 30);
-            this.buttonSubtraction.TabIndex = 17;
+            this.buttonSubtraction.TabIndex = 13;
             this.buttonSubtraction.Tag = "-";
             this.buttonSubtraction.Text = "-";
             this.buttonSubtraction.UseVisualStyleBackColor = true;
@@ -323,7 +313,7 @@
             this.buttonMultiplication.Location = new System.Drawing.Point(180, 161);
             this.buttonMultiplication.Name = "buttonMultiplication";
             this.buttonMultiplication.Size = new System.Drawing.Size(50, 30);
-            this.buttonMultiplication.TabIndex = 18;
+            this.buttonMultiplication.TabIndex = 14;
             this.buttonMultiplication.Tag = "×";
             this.buttonMultiplication.Text = "×";
             this.buttonMultiplication.UseVisualStyleBackColor = true;
@@ -336,7 +326,7 @@
             this.buttonSquareRoot.Location = new System.Drawing.Point(180, 125);
             this.buttonSquareRoot.Name = "buttonSquareRoot";
             this.buttonSquareRoot.Size = new System.Drawing.Size(50, 30);
-            this.buttonSquareRoot.TabIndex = 22;
+            this.buttonSquareRoot.TabIndex = 19;
             this.buttonSquareRoot.Tag = "squareroot";
             this.buttonSquareRoot.Text = "√";
             this.buttonSquareRoot.UseVisualStyleBackColor = true;
@@ -349,7 +339,7 @@
             this.buttonSquare.Location = new System.Drawing.Point(124, 125);
             this.buttonSquare.Name = "buttonSquare";
             this.buttonSquare.Size = new System.Drawing.Size(50, 30);
-            this.buttonSquare.TabIndex = 21;
+            this.buttonSquare.TabIndex = 20;
             this.buttonSquare.Tag = "quare";
             this.buttonSquare.Text = "x²";
             this.buttonSquare.UseVisualStyleBackColor = true;
@@ -362,7 +352,7 @@
             this.buttonCube.Location = new System.Drawing.Point(68, 125);
             this.buttonCube.Name = "buttonCube";
             this.buttonCube.Size = new System.Drawing.Size(50, 30);
-            this.buttonCube.TabIndex = 20;
+            this.buttonCube.TabIndex = 21;
             this.buttonCube.Tag = "cube";
             this.buttonCube.Text = "x³";
             this.buttonCube.UseVisualStyleBackColor = true;
@@ -375,7 +365,7 @@
             this.buttonPower.Location = new System.Drawing.Point(12, 125);
             this.buttonPower.Name = "buttonPower";
             this.buttonPower.Size = new System.Drawing.Size(50, 30);
-            this.buttonPower.TabIndex = 19;
+            this.buttonPower.TabIndex = 22;
             this.buttonPower.Tag = "power";
             this.buttonPower.Text = "xⁿ";
             this.buttonPower.UseVisualStyleBackColor = true;
@@ -387,7 +377,7 @@
             this.buttonMemoryRecall.Location = new System.Drawing.Point(180, 89);
             this.buttonMemoryRecall.Name = "buttonMemoryRecall";
             this.buttonMemoryRecall.Size = new System.Drawing.Size(50, 30);
-            this.buttonMemoryRecall.TabIndex = 26;
+            this.buttonMemoryRecall.TabIndex = 23;
             this.buttonMemoryRecall.Tag = "MR";
             this.buttonMemoryRecall.Text = "MR";
             this.buttonMemoryRecall.UseVisualStyleBackColor = true;
@@ -399,7 +389,7 @@
             this.buttonMemorySubtraction.Location = new System.Drawing.Point(124, 89);
             this.buttonMemorySubtraction.Name = "buttonMemorySubtraction";
             this.buttonMemorySubtraction.Size = new System.Drawing.Size(50, 30);
-            this.buttonMemorySubtraction.TabIndex = 25;
+            this.buttonMemorySubtraction.TabIndex = 24;
             this.buttonMemorySubtraction.Tag = "M-";
             this.buttonMemorySubtraction.Text = "M-";
             this.buttonMemorySubtraction.UseVisualStyleBackColor = true;
@@ -411,7 +401,7 @@
             this.buttonMemoryAddition.Location = new System.Drawing.Point(68, 89);
             this.buttonMemoryAddition.Name = "buttonMemoryAddition";
             this.buttonMemoryAddition.Size = new System.Drawing.Size(50, 30);
-            this.buttonMemoryAddition.TabIndex = 24;
+            this.buttonMemoryAddition.TabIndex = 25;
             this.buttonMemoryAddition.Tag = "M+";
             this.buttonMemoryAddition.Text = "M+";
             this.buttonMemoryAddition.UseVisualStyleBackColor = true;
@@ -423,7 +413,7 @@
             this.buttonMemoryClear.Location = new System.Drawing.Point(12, 89);
             this.buttonMemoryClear.Name = "buttonMemoryClear";
             this.buttonMemoryClear.Size = new System.Drawing.Size(50, 30);
-            this.buttonMemoryClear.TabIndex = 27;
+            this.buttonMemoryClear.TabIndex = 26;
             this.buttonMemoryClear.Tag = "MC";
             this.buttonMemoryClear.Text = "MC";
             this.buttonMemoryClear.UseVisualStyleBackColor = true;
@@ -439,7 +429,7 @@
             this.textBoxPad.ReadOnly = true;
             this.textBoxPad.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBoxPad.Size = new System.Drawing.Size(373, 253);
-            this.textBoxPad.TabIndex = 28;
+            this.textBoxPad.TabIndex = 33;
             this.textBoxPad.WordWrap = false;
             this.textBoxPad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyBoardInput);
             // 
@@ -448,7 +438,7 @@
             this.buttonPadClear.Location = new System.Drawing.Point(534, 312);
             this.buttonPadClear.Name = "buttonPadClear";
             this.buttonPadClear.Size = new System.Drawing.Size(75, 23);
-            this.buttonPadClear.TabIndex = 29;
+            this.buttonPadClear.TabIndex = 32;
             this.buttonPadClear.Text = "&Clear";
             this.buttonPadClear.UseVisualStyleBackColor = true;
             this.buttonPadClear.Click += new System.EventHandler(this.clearPad);
@@ -459,7 +449,7 @@
             this.buttonPadSave.Location = new System.Drawing.Point(453, 312);
             this.buttonPadSave.Name = "buttonPadSave";
             this.buttonPadSave.Size = new System.Drawing.Size(75, 23);
-            this.buttonPadSave.TabIndex = 30;
+            this.buttonPadSave.TabIndex = 31;
             this.buttonPadSave.Text = "&Save";
             this.buttonPadSave.UseVisualStyleBackColor = true;
             this.buttonPadSave.Click += new System.EventHandler(this.savePad);
@@ -471,7 +461,7 @@
             this.buttonCancel.Location = new System.Drawing.Point(180, 53);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(50, 30);
-            this.buttonCancel.TabIndex = 31;
+            this.buttonCancel.TabIndex = 28;
             this.buttonCancel.Tag = "C";
             this.buttonCancel.Text = "C";
             this.buttonCancel.UseVisualStyleBackColor = true;
@@ -488,7 +478,7 @@
             this.statusStripMain.Location = new System.Drawing.Point(0, 339);
             this.statusStripMain.Name = "statusStripMain";
             this.statusStripMain.Size = new System.Drawing.Size(621, 22);
-            this.statusStripMain.TabIndex = 32;
+            this.statusStripMain.TabIndex = 34;
             this.statusStripMain.Text = "statusStrip1";
             this.statusStripMain.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyBoardInput);
             // 
@@ -521,12 +511,11 @@
             this.menuStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
-            this.unitConversionStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStripMain.Location = new System.Drawing.Point(0, 0);
             this.menuStripMain.Name = "menuStripMain";
             this.menuStripMain.Size = new System.Drawing.Size(621, 24);
-            this.menuStripMain.TabIndex = 33;
+            this.menuStripMain.TabIndex = 35;
             this.menuStripMain.Text = "menuStrip1";
             this.menuStripMain.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyBoardInput);
             // 
@@ -543,7 +532,7 @@
             // 
             this.saveToolStripMenuItem.Image = global::Calculator.NET.Properties.Resources.save;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.savePad);
             // 
@@ -551,7 +540,7 @@
             // 
             this.exitToolStripMenuItem.Image = global::Calculator.NET.Properties.Resources.exit;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -604,77 +593,6 @@
             this.clearToolStripMenuItem.Text = "&Clear";
             this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearPad);
             // 
-            // unitConversionStripMenuItem
-            // 
-            this.unitConversionStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lengthToolStripMenuItem,
-            this.areaToolStripMenuItem,
-            this.volumeToolStripMenuItem,
-            this.weightToolStripMenuItem,
-            this.speedToolStripMenuItem,
-            this.temperatureToolStripMenuItem,
-            this.informationStripMenuItem});
-            this.unitConversionStripMenuItem.Name = "unitConversionStripMenuItem";
-            this.unitConversionStripMenuItem.Size = new System.Drawing.Size(95, 20);
-            this.unitConversionStripMenuItem.Text = "Unit Conversion";
-            // 
-            // lengthToolStripMenuItem
-            // 
-            this.lengthToolStripMenuItem.Name = "lengthToolStripMenuItem";
-            this.lengthToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.lengthToolStripMenuItem.Text = "Length";
-            // 
-            // areaToolStripMenuItem
-            // 
-            this.areaToolStripMenuItem.Name = "areaToolStripMenuItem";
-            this.areaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.areaToolStripMenuItem.Text = "Area";
-            // 
-            // volumeToolStripMenuItem
-            // 
-            this.volumeToolStripMenuItem.Name = "volumeToolStripMenuItem";
-            this.volumeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.volumeToolStripMenuItem.Text = "Volume";
-            // 
-            // weightToolStripMenuItem
-            // 
-            this.weightToolStripMenuItem.Name = "weightToolStripMenuItem";
-            this.weightToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.weightToolStripMenuItem.Text = "Weight";
-            // 
-            // speedToolStripMenuItem
-            // 
-            this.speedToolStripMenuItem.Name = "speedToolStripMenuItem";
-            this.speedToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.speedToolStripMenuItem.Text = "Speed";
-            // 
-            // temperatureToolStripMenuItem
-            // 
-            this.temperatureToolStripMenuItem.Name = "temperatureToolStripMenuItem";
-            this.temperatureToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.temperatureToolStripMenuItem.Text = "Temperature";
-            // 
-            // informationStripMenuItem
-            // 
-            this.informationStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.storageToolStripMenuItem,
-            this.speedToolStripMenuItem1});
-            this.informationStripMenuItem.Name = "informationStripMenuItem";
-            this.informationStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.informationStripMenuItem.Text = "Information";
-            // 
-            // storageToolStripMenuItem
-            // 
-            this.storageToolStripMenuItem.Name = "storageToolStripMenuItem";
-            this.storageToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.storageToolStripMenuItem.Text = "Storage";
-            // 
-            // speedToolStripMenuItem1
-            // 
-            this.speedToolStripMenuItem1.Name = "speedToolStripMenuItem1";
-            this.speedToolStripMenuItem1.Size = new System.Drawing.Size(167, 22);
-            this.speedToolStripMenuItem1.Text = "Data Transfer Rate";
-            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -715,7 +633,7 @@
             this.buttonBackspace.Location = new System.Drawing.Point(12, 53);
             this.buttonBackspace.Name = "buttonBackspace";
             this.buttonBackspace.Size = new System.Drawing.Size(106, 30);
-            this.buttonBackspace.TabIndex = 34;
+            this.buttonBackspace.TabIndex = 27;
             this.buttonBackspace.Tag = "Backspace";
             this.buttonBackspace.Text = "Backspace";
             this.buttonBackspace.UseVisualStyleBackColor = true;
@@ -729,7 +647,7 @@
             this.textBoxDisplay.Name = "textBoxDisplay";
             this.textBoxDisplay.ReadOnly = true;
             this.textBoxDisplay.Size = new System.Drawing.Size(597, 20);
-            this.textBoxDisplay.TabIndex = 35;
+            this.textBoxDisplay.TabIndex = 0;
             this.textBoxDisplay.Text = "0";
             this.textBoxDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBoxDisplay.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyBoardInput);
@@ -740,7 +658,7 @@
             this.buttonAllCancel.Location = new System.Drawing.Point(124, 53);
             this.buttonAllCancel.Name = "buttonAllCancel";
             this.buttonAllCancel.Size = new System.Drawing.Size(50, 30);
-            this.buttonAllCancel.TabIndex = 36;
+            this.buttonAllCancel.TabIndex = 29;
             this.buttonAllCancel.Tag = "AC";
             this.buttonAllCancel.Text = "AC";
             this.buttonAllCancel.UseVisualStyleBackColor = true;
@@ -752,7 +670,7 @@
             this.buttonSeperator.Location = new System.Drawing.Point(372, 312);
             this.buttonSeperator.Name = "buttonSeperator";
             this.buttonSeperator.Size = new System.Drawing.Size(75, 23);
-            this.buttonSeperator.TabIndex = 37;
+            this.buttonSeperator.TabIndex = 30;
             this.buttonSeperator.Text = "&Seperator";
             this.buttonSeperator.UseVisualStyleBackColor = true;
             this.buttonSeperator.Click += new System.EventHandler(this.buttonSeperator_Click);
@@ -765,6 +683,7 @@
             // 
             // MainForm
             // 
+            this.AcceptButton = this.buttonEaqual;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 361);
@@ -874,16 +793,6 @@
         private System.Windows.Forms.Button buttonSeperator;
         private System.Windows.Forms.SaveFileDialog saveFileDialogBox;
         private System.Windows.Forms.ToolStripStatusLabel memoryStatus;
-        private System.Windows.Forms.ToolStripMenuItem unitConversionStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem areaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem volumeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem weightToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem temperatureToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem speedToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lengthToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem informationStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem storageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem speedToolStripMenuItem1;
     }
 }
 

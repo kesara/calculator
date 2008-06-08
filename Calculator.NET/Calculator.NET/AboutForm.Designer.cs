@@ -118,11 +118,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(72, 236);
+            this.label3.Location = new System.Drawing.Point(57, 236);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(258, 13);
+            this.label3.Size = new System.Drawing.Size(288, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Copyright (C) 2007 Kesara Nanayakkara Rathnayake";
+            this.label3.Text = "Copyright (C) 2007, 2008 Kesara Nanayakkara Rathnayake";
             // 
             // label2
             // 

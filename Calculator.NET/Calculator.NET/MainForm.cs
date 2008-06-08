@@ -45,6 +45,7 @@ namespace Calculator.NET
         public MainForm()
         {
             InitializeComponent();
+            textBoxDisplay.Focus();
 
             /* Variable Intialization */
             x = 0;
