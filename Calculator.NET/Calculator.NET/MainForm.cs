@@ -26,7 +26,7 @@ namespace Calculator.NET
      */
     public partial class MainForm : Form
     {
-
+        #region Variables
         private double x;                       // First number
         private double y;                       // Second number
         private double m;                       // Number in memory
@@ -36,6 +36,7 @@ namespace Calculator.NET
         private bool operationPressed;          // True if operater has been pressed.
         private bool singleParameterOperation;  // True if operation is a single parameter operation.
         private Calculations calculation;       // Instance of Calculation Class
+        #endregion
 
         /*
          * MainForm - MainForm Constructor
@@ -189,6 +190,13 @@ namespace Calculator.NET
                     {
                         textBoxDisplay.Text = textBoxDisplay.Text + number;
                     }
+                }
+            }
+            else if (number == "0")
+            {
+                if (textBoxDisplay.Text != "0")
+                {
+                    textBoxDisplay.Text = textBoxDisplay.Text + number;
                 }
             }
             else if (number == "Backspace")
