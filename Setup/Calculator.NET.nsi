@@ -1,8 +1,8 @@
-;------------------------------------------------
+;------------------------------------------------------
 ;Calculator.NET
-;Version 1.0.0.0
-;Copyright (C) 2007 Kesara Nanayakkara Rathnayake
-;------------------------------------------------
+;Version 1.1.0.0
+;Copyright (C) 2007, 2008 Kesara Nanayakkara Rathnayake
+;------------------------------------------------------
 
 ;--------------------------------
 ;Include
@@ -14,8 +14,8 @@
 
 	;Name and file
 	Name "Calculator.NET"
-	BrandingText "Calculator.NET Version 1.0.0.0"
-	OutFile "Calculator.NET-1.0.0.0-Setup.exe"
+	BrandingText "Calculator.NET Version 1.1.0.0"
+	OutFile "Calculator.NET-1.1.0.0-Setup.exe"
 
 	;Default installation folder
 	InstallDir "$PROGRAMFILES\Calculator.NET"
@@ -58,7 +58,7 @@
 	!define MUI_HEADERIMAGE_BITMAP "${NSISDIR}\Contrib\Graphics\Header\orange.bmp"
 	!define MUI_HEADERIMAGE_UNBITMAP "${NSISDIR}\Contrib\Graphics\Header\orange-uninstall.bmp"
 
-	!define MUI_HEADER_TRANSPARENT_TEXT "Calculator.NET Version 1.0.0.0"
+	!define MUI_HEADER_TRANSPARENT_TEXT "Calculator.NET Version 1.1.0.0"
 
 	!define MUI_WELCOMEFINISHPAGE_BITMAP "${NSISDIR}\Contrib\Graphics\Wizard\orange.bmp"
 	!define MUI_UNWELCOMEFINISHPAGE_BITMAP "${NSISDIR}\Contrib\Graphics\Wizard\orange-uninstall.bmp"
@@ -120,7 +120,7 @@ Section "Calculator" SecMain
 	!insertmacro MUI_STARTMENU_WRITE_END
 
 	;Adding to Windows Add or Remove Programs
-	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Calculator.NET" "DisplayName" "Calculator.NET Version 1.0.0.0"
+	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Calculator.NET" "DisplayName" "Calculator.NET Version 1.1.0.0"
 	WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Calculator.NET" "UninstallString" "$INSTDIR\uninstall.exe"
 
 SectionEnd
