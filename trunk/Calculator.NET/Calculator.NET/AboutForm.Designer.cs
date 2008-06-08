@@ -36,18 +36,19 @@
             this.linkLabelHomePage = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelProgramVersion = new System.Windows.Forms.Label();
             this.labelProgramName = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage3.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonOk
             // 
+            this.buttonOk.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonOk.Location = new System.Drawing.Point(344, 307);
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(75, 23);
@@ -132,6 +133,15 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Simple Calculator with innovotive features.";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Calculator.NET.Properties.Resources.Calculator_NET;
+            this.pictureBox1.Location = new System.Drawing.Point(138, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(127, 126);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // labelProgramVersion
             // 
             this.labelProgramVersion.AutoSize = true;
@@ -161,19 +171,12 @@
             this.tabControl1.Size = new System.Drawing.Size(411, 289);
             this.tabControl1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Calculator.NET.Properties.Resources.Calculator_NET;
-            this.pictureBox1.Location = new System.Drawing.Point(138, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(127, 126);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
             // AboutForm
             // 
+            this.AcceptButton = this.buttonOk;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.buttonOk;
             this.ClientSize = new System.Drawing.Size(435, 342);
             this.Controls.Add(this.buttonOk);
             this.Controls.Add(this.tabControl1);
@@ -187,12 +190,13 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Calculator.NET";
+            this.TopMost = true;
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

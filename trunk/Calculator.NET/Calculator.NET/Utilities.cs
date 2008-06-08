@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Windows.Forms;
+using System.Threading;
 
 namespace Calculator.NET
 {
     /*
-     * Program - The main class
+     * Calculations - Perform claculations.
      * @author: Kesara Nanayakkara Rathnayake < kesara@bcs.org >
      * Copyright (C) 2007, 2008 Kesara Nanayakkara Rathnayake
      * 
@@ -23,14 +23,24 @@ namespace Calculator.NET
      * along with Calculator.NET.  If not, see <http://www.gnu.org/licenses/>.
      * 
      */
-    static class Program
+
+    class Utilities
     {
-        [STAThread]
-        static void Main()
+        /*
+         * openURL - Get the url, and creats browser thread.
+         */
+        public static void openURL(string url)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Thread urlTread = new Thread(new ParameterizedThreadStart(openBrowser));
+            urlTread.Start(url);
+        }
+
+        /*
+         * openBrowser - Open the default web browser.
+         */
+        private static void openBrowser(object url)
+        {
+            System.Diagnostics.Process.Start((string)url);
         }
     }
 }

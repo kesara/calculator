@@ -1,18 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Calculator.NET
 {
     /*
-     * MainForm - The main GUI.s
+     * MainForm - The main GUI.
      * @author: Kesara Nanayakkara Rathnayake < kesara@bcs.org >
-     * Copyright (C) 2007 Kesara Nanayakkara Rathnayake
+     * Copyright (C) 2007, 2008 Kesara Nanayakkara Rathnayake
+     * 
+     * This file is part of Calculator.NET.
+     * 
+     * Calculator.NET is free software: you can redistribute it and/or modify
+     * it under the terms of the GNU General Public License as published by
+     * the Free Software Foundation, either version 3 of the License.
+     * 
+     * Calculator.NET is distributed in the hope that it will be useful,
+     * but WITHOUT ANY WARRANTY; without even the implied warranty of
+     * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     * GNU General Public License for more details.
+     * 
+     * You should have received a copy of the GNU General Public License
+     * along with Calculator.NET.  If not, see <http://www.gnu.org/licenses/>.
+     * 
      */
     public partial class MainForm : Form
     {
@@ -399,14 +409,12 @@ namespace Calculator.NET
 
         private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            String url = @"http://calculator.googlecode.com/";
-            System.Diagnostics.Process.Start(url);
+            Utilities.openURL("http://calculator.googlecode.com/");
         }
 
         private void helpToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            String url = @"http://code.google.com/p/calculator/wiki/OnlineHelp";
-            System.Diagnostics.Process.Start(url);
+            Utilities.openURL("http://code.google.com/p/calculator/wiki/OnlineHelp");
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
