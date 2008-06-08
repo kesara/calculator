@@ -5,12 +5,16 @@
 
 *Calculator.NET* is an easy to use calculator with unique features for Microsoft Windows operating system. Calculator.NET can be used to perform any of the standard operations for which you would normally use a calculator. Calculator.NET is written in C# Programming Language and it requires [http://www.microsoft.com/downloads/details.aspx?FamilyId=333325FD-AE52-4E35-B531-508D977D32A6&displaylang=en .NET_Framework_3.5].
 
-*Current Version: Calculator.NET-1.0.0.0 (beta) [http://calculator.googlecode.com/files/Calculator.NET-1.0.0.0-Setup.exe download]*
+*Current Version: Calculator.NET-1.1.0.0 (beta) [http://calculator.googlecode.com/files/Calculator.NET-1.1.0.0-Setup.exe download]*
 
 = Change Log =
 
 12-DEC-2007 Version 1.0.0.0 (beta)
   * Initial Version
+09-JUN-2008 Version 1.1.0.0 (beta)
+  * Keyboard input support
+  * Minor user interface enhancements.
+  * Several bug fixes. _(Including [Issue#2] and [Issue#3].)
 
 = External links =
   * [http://www.ohloh.net/projects/10231 Ohloh Project Page]
