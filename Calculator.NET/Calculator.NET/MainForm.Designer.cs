@@ -429,7 +429,7 @@
             this.textBoxPad.ReadOnly = true;
             this.textBoxPad.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBoxPad.Size = new System.Drawing.Size(373, 253);
-            this.textBoxPad.TabIndex = 33;
+            this.textBoxPad.TabIndex = 0;
             this.textBoxPad.WordWrap = false;
             this.textBoxPad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyBoardInput);
             // 
@@ -647,7 +647,7 @@
             this.textBoxDisplay.Name = "textBoxDisplay";
             this.textBoxDisplay.ReadOnly = true;
             this.textBoxDisplay.Size = new System.Drawing.Size(597, 20);
-            this.textBoxDisplay.TabIndex = 0;
+            this.textBoxDisplay.TabIndex = 33;
             this.textBoxDisplay.Text = "0";
             this.textBoxDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBoxDisplay.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyBoardInput);
