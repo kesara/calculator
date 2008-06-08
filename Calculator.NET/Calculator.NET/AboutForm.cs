@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.Linq;
 using System.Reflection;
 using System.Windows.Forms;
@@ -11,7 +8,22 @@ namespace Calculator.NET
     /*
      * AboutForm - The about form
      * @author: Kesara Nanayakkara Rathnayake < kesara@bcs.org >
-     * Copyright (C) 2007 Kesara Nanayakkara Rathnayake
+     * Copyright (C) 2007, 2008 Kesara Nanayakkara Rathnayake
+     * 
+     * This file is part of Calculator.NET.
+     * 
+     * Calculator.NET is free software: you can redistribute it and/or modify
+     * it under the terms of the GNU General Public License as published by
+     * the Free Software Foundation, either version 3 of the License.
+     * 
+     * Calculator.NET is distributed in the hope that it will be useful,
+     * but WITHOUT ANY WARRANTY; without even the implied warranty of
+     * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     * GNU General Public License for more details.
+     * 
+     * You should have received a copy of the GNU General Public License
+     * along with Calculator.NET.  If not, see <http://www.gnu.org/licenses/>.
+     * 
      */
     partial class AboutForm : Form
     {
@@ -43,10 +55,12 @@ namespace Calculator.NET
         }
         #endregion
 
+        /*
+         * linkLabelHomePage_LinkClicked - Directs to official home page.
+         */
         private void linkLabelHomePage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            String url = @"http://calculator.googlecode.com/";
-            System.Diagnostics.Process.Start(url);
+            Utilities.openURL("http://calculator.googlecode.com/");
         }
     }
 }
