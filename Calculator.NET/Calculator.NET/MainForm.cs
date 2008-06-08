@@ -309,9 +309,17 @@ namespace Calculator.NET
             {
                 enterNumber("Backspace");
             }
-            else if (e.KeyChar == '=' || e.KeyChar == '+' || e.KeyChar == '-' || e.KeyChar == '/' || e.KeyChar == '*')
+            else if (e.KeyChar == '=' || e.KeyChar == '+' || e.KeyChar == '-')
             {
                 enterOperation(e.KeyChar.ToString());
+            }
+            else if (e.KeyChar == '/')
+            {
+                enterOperation("÷");
+            }
+            else if (e.KeyChar == '*')
+            {
+                enterOperation("×");
             }
         }
 
