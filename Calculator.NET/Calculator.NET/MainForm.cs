@@ -35,7 +35,6 @@ namespace Calculator.NET
         private bool withInCalculation;         // True if two prameter operation is activated.
         private bool operationPressed;          // True if operater has been pressed.
         private bool singleParameterOperation;  // True if operation is a single parameter operation.
-        private Calculations calculation;       // Instance of Calculation Class
         #endregion
 
         /*
@@ -45,9 +44,8 @@ namespace Calculator.NET
         public MainForm()
         {
             InitializeComponent();
-            textBoxDisplay.Focus();
 
-            /* Variable Intialization */
+            #region Variable Intialization
             x = 0;
             y = 0;
             m = 0;
@@ -56,7 +54,7 @@ namespace Calculator.NET
             withInCalculation = false;
             operationPressed = true;            // So the display clears every thing when number pressed.
             singleParameterOperation = false;
-            calculation = new Calculations();
+            #endregion
         }
 
         /*************************
@@ -77,19 +75,19 @@ namespace Calculator.NET
                 switch (operation)
                 {
                     case "+":
-                        result = calculation.addition(x, y);
+                        result = Calculations.addition(x, y);
                         break;
                     case "-":
-                        result = calculation.subtraction(x, y);
+                        result = Calculations.subtraction(x, y);
                         break;
                     case "×":
-                        result = calculation.multiplication(x, y);
+                        result = Calculations.multiplication(x, y);
                         break;
                     case "÷":
-                        result = calculation.division(x, y);
+                        result = Calculations.division(x, y);
                         break;
                     case "xⁿ":
-                        result = calculation.power(x, y);
+                        result = Calculations.power(x, y);
                         break;
                 }
 
@@ -126,19 +124,19 @@ namespace Calculator.NET
             switch (operation)
             {
                 case "x!":
-                    result = calculation.factorial(x);
+                    result = Calculations.factorial(x);
                     singleParameterOperation = true;
                     break;
                 case "√":
-                    result = calculation.squareRoot(x);
+                    result = Calculations.squareRoot(x);
                     singleParameterOperation = true;
                     break;
                 case "x²":
-                    result = calculation.square(x);
+                    result = Calculations.square(x);
                     singleParameterOperation = true;
                     break;
                 case "x³":
-                    result = calculation.cube(x);
+                    result = Calculations.cube(x);
                     singleParameterOperation = true;
                     break;
             }
@@ -169,7 +167,7 @@ namespace Calculator.NET
         {
             if (number == "±")
             {
-                textBoxDisplay.Text = calculation.plusMinus(Double.Parse(textBoxDisplay.Text)).ToString();
+                textBoxDisplay.Text = Calculations.plusMinus(Double.Parse(textBoxDisplay.Text)).ToString();
                 return;
             }
 
@@ -246,7 +244,7 @@ namespace Calculator.NET
          ********************/
         private void buttonMemoryAddition_Click(object sender, EventArgs e)
         {
-            m = calculation.addition(m, Double.Parse(textBoxDisplay.Text));
+            m = Calculations.addition(m, Double.Parse(textBoxDisplay.Text));
             memoryStatus.Text = "M = " + m.ToString();
             updatePad(m);
             operationPressed = true;
@@ -254,7 +252,7 @@ namespace Calculator.NET
 
         private void buttonMemorySubtraction_Click(object sender, EventArgs e)
         {
-            m = calculation.subtraction(m, Double.Parse(textBoxDisplay.Text));
+            m = Calculations.subtraction(m, Double.Parse(textBoxDisplay.Text));
             memoryStatus.Text = "M = " + m.ToString();
             updatePad(m);
             operationPressed = true;

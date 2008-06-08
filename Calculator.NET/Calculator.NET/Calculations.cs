@@ -25,32 +25,32 @@ namespace Calculator.NET
      */
     class Calculations
     {
-        public double addition(double x, double y)
+        public static double addition(double x, double y)
         {
             return x + y;
         }
         
-        public double subtraction(double x, double y)
+        public static double subtraction(double x, double y)
         {
             return x - y;
         }
         
-        public double multiplication(double x, double y)
+        public static double multiplication(double x, double y)
         {
             return x * y;
         }
         
-        public double division(double x, double y)
+        public static double division(double x, double y)
         {
             return x / y;
         }
 
-        public double power(double x, double y)
+        public static double power(double x, double y)
         {
             return Math.Pow(x, y);
         }
 
-        private double calculateFactorial(double x)
+        private static double calculateFactorial(double x)
         {
             if (x == 1 || x == 0)
             {
@@ -62,7 +62,7 @@ namespace Calculator.NET
             }
         }
 
-        public double factorial(double x)
+        public static double factorial(double x)
         {
             if (x < 0 || Double.IsNaN(x))
             {
@@ -78,22 +78,22 @@ namespace Calculator.NET
             }
         }
 
-        public double plusMinus(double x)
+        public static double plusMinus(double x)
         {
             return multiplication(x, -1);
         }
 
-        public double squareRoot(double x)
+        public static double squareRoot(double x)
         {
             return power(x, 0.5);
         }
 
-        public double square(double x)
+        public static double square(double x)
         {
             return power(x, 2);
         }
 
-        public double cube(double x)
+        public static double cube(double x)
         {
             return power(x, 3);
         }
