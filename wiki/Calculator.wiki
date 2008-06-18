@@ -1,5 +1,5 @@
+#summary Calculator.NET
 #labels Featured
-#Calculator.NET
 
 = Introduction =
 
