@@ -1,5 +1,5 @@
+#summary Awards
 #labels Featured,Awards
-#Awards
 
 = Softpedia 100% Clean Award =
 
