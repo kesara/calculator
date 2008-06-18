@@ -22,7 +22,7 @@ Icons used in the project:
 
 = Calculator.NET Icon =
 
-Designers: Silvestre Herrera (silvestre [dot] herrera [at] gmail [dot] com) and Andrew Fitzsimon
+Designers: [http://www.silvestre.com.ar/ Silvestre Herrera] and Andrew Fitzsimon
 
 License: [http://creativecommons.org/licenses/by-sa/2.0/ Creative Commons Attribution Share-Alike license] 
 
