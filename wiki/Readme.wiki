@@ -1,5 +1,5 @@
+#summary Calculator.NET Read Me
 #labels Calculator.NET,Readme,Featured
-#summery Calculator.NET Read Me
 
 =Read Me=
 
