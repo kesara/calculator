@@ -1,7 +1,7 @@
 #summary Calculator.NET Artwork Credits
 
 = Calculator.NET Artwork =
-The Calculator.NET uses some artwork from various projects. Just want to give credits to them.
+The Calculator.NET uses artwork from several projects.
 
 = Action Icons =
 Designers: [http://tango.freedesktop.org/Tango_Desktop_Project Tango Desktop Project]
