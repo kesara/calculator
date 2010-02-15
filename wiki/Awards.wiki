@@ -2,8 +2,10 @@
 #labels Featured,Awards
 
 = Softpedia 100% Clean Award =
-
 [http://www.softpedia.com/progClean/CalculatorNET-Clean-90199.html http://www.softpedia.com/images/spyward/softpedia_clean_award_f.gif]
+
+= euroDownload.com Golden Award =
+[http://www.eurodownload.com/download-software/112673/Calculator-NET.html http://www.eurodownload.com/images/rating5.png]
 
 = Download3k.com Clean Award =
 [http://www.download3k.com/Antivirus-Report-Kesara-Nanayakkara-Rathnayake-Calculator.NET.html http://www.download3k.com/images/award_clean.gif]
