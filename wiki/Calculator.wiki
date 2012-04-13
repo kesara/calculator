@@ -20,4 +20,4 @@
 
 = External links =
   * [http://www.ohloh.net/projects/10231 Ohloh Project Page]
-  * [http://kesara.blogspot.com/ Official Blog]
+  * [http://kesara.lk/ Developer's Blog]
